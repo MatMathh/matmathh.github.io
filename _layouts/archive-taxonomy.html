@@ -1,0 +1,25 @@
+---
+layout: default
+author_profile: false
+header-includes: |
+    \usepackage{amsmath,mathtools}
+---
+
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    <h1 class="page__title">{{ page.title }}</h1>
+    {% for post in page.posts %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div>
+</div>
