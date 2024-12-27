@@ -105,25 +105,21 @@ Y como:
 
 $$
 \begin{aligned}
-\sum_{p \in \mathcal{P}} \frac{1}{p^s\left(p^s-1\right)} & <\sum_{p \in \mathcal{P}} \frac{1}{p^{2 s}} \\
-& <\sum_{n=1}^{\infty} \frac{1}{n^{2 s}}
+\sum_{p \in \mathcal{P}} \frac{1}{p^s\left(p^s-1\right)}
+& <\sum_{n=1}^{\infty} \frac{1}{n^{2 s}-n^s}
 \end{aligned}
 $$
 
 Entonces:
 
 $$
-\log \left(\sum_{n=1}^{\infty} \frac{1}{n^s}\right)<\sum_{p \in \mathcal{P}} \frac{1}{p^s}+\sum_{n=1}^{\infty} \frac{1}{n^{2 s}}
+\log \left(\sum_{n=1}^{\infty} \frac{1}{n^s}\right)<\sum_{p \in \mathcal{P}} \frac{1}{p^s}+K
 $$
 
-Ahora note que cuando $$s \longrightarrow 1$$, de un lado tenemos el logaritmo de la serie armónica (divergente) y del otro lado:
+con $K\in \mathbb{R}$ ya que la última serie es convergente.
 
-$$
-\sum_{p \in \mathcal{P}} \frac{1}{p}+\frac{\pi^2}{6}
-$$
-
-Y como $$\operatorname{lím}_{x \rightarrow \infty}(\log (x))=\infty$$, entonces $$\sum_{p \in \mathcal{P}} \frac{1}{p}$$ es divergente ya que $$\frac{\pi^2}{6}$$ no afecta en nada.
-
-$$\tag*{$\blacksquare$}$$
+Y como $$\operatorname{lím}_{x \rightarrow \infty}(\log (x))=\infty$$, entonces $$\sum_{p \in \mathcal{P}} \frac{1}{p}$$ es divergente ya que $$K$$ no afecta en nada a la suma y cuando $s\to 1$ la serie dentro del logaritmo es la serie armónica.
 
 Ahora, como $$\sum_{p \in \mathcal{P}}\dfrac{1}{p}$$ diverge, entonces los primos son infinitos
+
+$$\tag*{$\blacksquare$}$$
