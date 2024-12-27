@@ -116,9 +116,9 @@ $$
 \log \left(\sum_{n=1}^{\infty} \frac{1}{n^s}\right)<\sum_{p \in \mathcal{P}} \frac{1}{p^s}+K
 $$
 
-con $K\in \mathbb{R}$ ya que la última serie es convergente.
+con $$K\in \mathbb{R}$$ ya que la última serie es convergente.
 
-Y como $$\operatorname{lím}_{x \rightarrow \infty}(\log (x))=\infty$$, entonces $$\sum_{p \in \mathcal{P}} \frac{1}{p}$$ es divergente ya que $$K$$ no afecta en nada a la suma y cuando $s\to 1$ la serie dentro del logaritmo es la serie armónica.
+Y como $$\operatorname{lím}_{x \rightarrow \infty}(\log (x))=\infty$$, entonces $$\sum_{p \in \mathcal{P}} \frac{1}{p}$$ es divergente ya que $$K$$ no afecta en nada a la suma y cuando $$s\to 1$$ la serie dentro del logaritmo es la serie armónica.
 
 Ahora, como $$\sum_{p \in \mathcal{P}}\dfrac{1}{p}$$ diverge, entonces los primos son infinitos
 
