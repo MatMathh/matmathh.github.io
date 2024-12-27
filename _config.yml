@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", 
 
 # Site Settings
 locale                   : "es-ES"
-title                    : "MatMath.h"
+title                    : "Numberverse"
 title_separator          : "-"
-name                     : "MatMath.h"
+name                     : "Numberverse"
 description              : "Divulgación matemática"
-url                      : "https://matmathh.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://numberverse.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "matmathh/matmathh.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "matmathh/numberverse.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/masthead.png"
 teaser                   : "favicon.ico" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
@@ -101,13 +101,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "MatMath.h"
+  name             : "Numberverse"
   avatar           : "/assets/images/avatar.jpg"
   bio              : "Somos estudiantes de matemáticas <link href='https://emoji-css.afeld.me/emoji.css' rel='stylesheet'><i class='em em-owl' aria-role='presentation' aria-label='BIRD'></i>.<br>Post divulgativos de matemáticas, particularmente de teoría de números, álgebra y temas relacionados."
   location         : "Colombia"
   email            : "matm4th.h@gmail.com"
   uri              :
-  home             : matmathh.github.io # null (default), "absolute or relative url to link to author home"
+  home             : numberverse.github.io # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -118,7 +118,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          : #"snowscan"
-  instagram        : matmath.h
+  instagram        : numbervers3
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
